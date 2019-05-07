@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: 
+      - dev
+      
+----
+spring:
+  application:
+    name: cloud-config-dev
+  profiles: dev   #开发环境
+  
+---
+spring:
+  application:
+    name: cloud-config-dev
+  profiles: test  #测试环境
