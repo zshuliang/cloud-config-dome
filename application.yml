@@ -10,5 +10,5 @@ spring:
 ---
 spring:
   application:
-    name: cloud-config-dev
+    name: cloud-config-test
   profiles: test  #测试环境
